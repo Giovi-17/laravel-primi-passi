@@ -9,6 +9,10 @@
 <body>
 
     <h1>Hello World</h1>
+
+    <span>Ciao </span>
+    <span>{{ $name }} - </span>
+    <span>{{ $lastname }}</span>
     
 </body>
 </html>
