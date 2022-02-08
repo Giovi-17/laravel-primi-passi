@@ -24,4 +24,14 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-});
+})->name("homepage");
+
+Route::get('/shop', function () {
+
+    return view('shop');
+})->name("shop");
+
+Route::get('/info', function () {
+
+    return view('info');
+})->name("info");

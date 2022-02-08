@@ -45,19 +45,15 @@
 
         <ul>
 
+            <li><a href="{{ route("homepage") }}">Home</a></li>
             <li><a href="{{ route("shop") }}">Shop</a></li>
-            <li><a href="{{ route("info") }}">Info</a></li>
             <li><a href="">Partner</a></li>
 
         </ul>
 
     </div>
 
-    <h1>Hello World</h1>
-
-    <span>Ciao </span>
-    <span>{{ $name }} - </span>
-    <span>{{ $lastname }}</span>
+    <h1>Info</h1>
     
 </body>
 </html>
